@@ -32,11 +32,13 @@ Consequentemente, o projeto ainda não deve declarar que ocorreram “X acidente
 
 1. Recalcular os totais de 2022–2024 diretamente nas tabelas oficiais do [AEAT](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/arquivos/AEAT-2024).
 2. Confirmar a versão das tabelas de agente causador e situação geradora na documentação oficial do [eSocial](https://www.gov.br/esocial/pt-br/documentacao-tecnica/leiautes-esocial-versao-s-1-3-nt-07-2026/tabelas.html/view).
-3. Verificar a disponibilidade dos códigos nos microdados que serão usados na análise.
+3. ~~Verificar a disponibilidade dos códigos nos microdados que serão usados na análise.~~ **Busca concluída; não foi localizada uma descarga pública individual do eSocial com situação geradora.**
 4. Revisar manualmente uma amostra dos candidatos, principalmente andaimes, plataformas e escavações.
 5. Registrar as decisões, versões e resultados no [diário exploratório](../docs/diario-exploratorio.md).
 
 O relatório desta validação está em [`docs/validacao-aeat-esocial-mte.md`](../docs/validacao-aeat-esocial-mte.md).
+
+O relatório do MTE preservado no projeto está em [`data/referencias/mte/acidentes-trabalho-brasil-2016-2025-mte.pdf`](../data/referencias/mte/acidentes-trabalho-brasil-2016-2025-mte.pdf).
 
 Os detalhes metodológicos estão em [`docs/metodologia/base-estatistica-colapso.md`](../docs/metodologia/base-estatistica-colapso.md), [`docs/metodologia/classificacao-colapso.md`](../docs/metodologia/classificacao-colapso.md) e [`docs/cenario-brasil-2021-2025.md`](../docs/cenario-brasil-2021-2025.md).
 
