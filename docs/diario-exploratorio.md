@@ -111,3 +111,9 @@ Em 18/09/2026, os totais da planilha foram recalculados a partir da tabela ofici
 Na mesma etapa, os códigos 200020700 e os agentes candidatos foram localizados e confirmados semanticamente nas tabelas oficiais do eSocial. A página do MTE foi confirmada como fonte de casos e relatórios narrativos na categoria de soterramento, desabamento e desmoronamento. Ainda não foi demonstrada a presença do código de situação geradora no CSV público piloto da CAT; essa permanece a principal pendência para uma contagem específica de colapsos.
 
 O detalhamento e as fontes estão em [`validacao-aeat-esocial-mte.md`](validacao-aeat-esocial-mte.md).
+
+## 10. Disponibilidade dos microdados e decisão metodológica
+
+Em 18/09/2026 foi pesquisada a disponibilidade pública de microdados eSocial com a variável de situação geradora. A documentação confirma que o campo existe no módulo de CAT, mas não foi localizada uma descarga pública de registros individuais. O relatório técnico do MTE de 2016–2025 foi baixado e preservado em `data/referencias/mte/`; ele fornece resultados agregados de CAT/INSS/eSocial e contexto setorial, mas não permite contar o código `200020700`.
+
+A decisão registrada é trabalhar com estatística agregada, classificação exploratória e validação narrativa, sem declarar incidência nacional de colapsos até que uma base individual compatível seja obtida.

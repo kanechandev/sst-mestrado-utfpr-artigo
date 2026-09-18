@@ -41,3 +41,11 @@ A página de [informações sobre acidentes do MTE](https://www.gov.br/trabalho-
 2. As variações corretas são 16,9% para o total, 16,3% para acidentes com CAT registrada e 12,7% para típicos com CAT registrada.
 3. Os códigos do eSocial foram confirmados semanticamente.
 4. Ainda falta uma base de registros que contenha a situação geradora para estimar a quantidade de eventos 200020700.
+
+## Resultado da busca por microdados eSocial
+
+A busca em fontes oficiais não localizou uma descarga pública de microdados individuais do eSocial contendo a situação geradora do acidente. A documentação oficial confirma que o campo existe no módulo de CAT do eSocial, mas o acesso é operacional para empregadores e responsáveis autorizados, não uma base aberta de registros para este projeto.
+
+Foi preservado em `data/referencias/mte/acidentes-trabalho-brasil-2016-2025-mte.pdf` o relatório técnico oficial do MTE [Acidentes do trabalho no Brasil — 2016 a 2025](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/canpat-2/canpat-2025/acidentes-de-trabalho-2016-a-2025.pdf/). O relatório usa CAT/INSS/eSocial em análise agregada; registra 6,4 milhões de acidentes e 27.486 óbitos no período e apresenta a construção de edifícios com 122.455 acidentes e 820 óbitos acumulados. Ele não disponibiliza os registros individuais nem uma contagem pública do código `200020700`.
+
+**Decisão metodológica:** não será afirmada uma incidência nacional de colapsos com base nesse código. O estudo seguirá com estatística agregada do AEAT, classificação exploratória por agentes/códigos quando disponíveis e validação narrativa dos casos em relatórios do MTE.
