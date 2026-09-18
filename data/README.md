@@ -26,7 +26,7 @@ O desenho atual permite combinar:
 
 O CSV público piloto da CAT não apresenta, no cabeçalho, um campo explícito de “situação geradora”. Por isso, agentes como andaime, escavação ou edifício são indicadores candidatos, não provas de colapso. O código `200020700` é um marcador metodológico promissor, mas ainda precisa ser localizado em uma base de registros que contenha essa variável, como uma extração vinculada ao eSocial.
 
-Consequentemente, o projeto ainda não deve declarar que ocorreram “X acidentes de colapso” no Brasil. Os números setoriais e os eventos classificados devem ser apresentados como análise exploratória até a validação da fonte, dos códigos e dos falsos positivos.
+Consequentemente, o projeto ainda não deve declarar que ocorreram “X acidentes de colapso” no Brasil. Os números setoriais e os eventos classificados devem ser apresentados como análise exploratória até a validação da fonte, dos códigos e dos falsos positivos. A conferência dos totais do AEAT foi concluída em 18/09/2026; ela confirmou os valores da planilha e corrigiu a variação de “com CAT registrada” para 16,3%.
 
 ### Próximas validações
 
@@ -35,6 +35,8 @@ Consequentemente, o projeto ainda não deve declarar que ocorreram “X acidente
 3. Verificar a disponibilidade dos códigos nos microdados que serão usados na análise.
 4. Revisar manualmente uma amostra dos candidatos, principalmente andaimes, plataformas e escavações.
 5. Registrar as decisões, versões e resultados no [diário exploratório](../docs/diario-exploratorio.md).
+
+O relatório desta validação está em [`docs/validacao-aeat-esocial-mte.md`](../docs/validacao-aeat-esocial-mte.md).
 
 Os detalhes metodológicos estão em [`docs/metodologia/base-estatistica-colapso.md`](../docs/metodologia/base-estatistica-colapso.md), [`docs/metodologia/classificacao-colapso.md`](../docs/metodologia/classificacao-colapso.md) e [`docs/cenario-brasil-2021-2025.md`](../docs/cenario-brasil-2021-2025.md).
 

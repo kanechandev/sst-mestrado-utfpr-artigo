@@ -103,3 +103,11 @@ Em 17/09/2026 foi incorporado ao diretório do projeto o arquivo [`base_estatist
 A planilha melhora a exploração ao separar um marcador primário de situação geradora (`200020700`), candidatos por agente causador e falsos positivos esperados. Os códigos foram confrontados semanticamente com as tabelas oficiais do eSocial, mas ainda não foram ligados a uma variável existente no CSV público piloto da CAT. Os totais do AEAT presentes na planilha permanecem provisórios até recálculo na fonte original.
 
 Em 17/09/2026 foi realizada a primeira triagem bibliográfica. Foram selecionados artigos sobre causalidade de acidentes, colapso de edificações, análise sistêmica, escavações, estruturas temporárias, colapso progressivo e uso de CAT no Brasil. A seleção, os links oficiais e os arquivos locais disponíveis estão em [`referencias-estado-arte.md`](referencias-estado-arte.md). Os PDFs de acesso aberto foram salvos em `data/referencias/artigos/`; nos casos em que a editora não disponibilizou o PDF por acesso direto, foi preservado o registro bibliográfico e o endereço oficial.
+
+## 9. Validação direta no AEAT, eSocial e MTE
+
+Em 18/09/2026, os totais da planilha foram recalculados a partir da tabela oficial 1.1 do AEAT 2024. Os valores de total de acidentes (43.452, 46.672 e 50.789), com CAT registrada (37.905, 40.292 e 44.091) e típicos com CAT registrada (31.858, 33.451 e 35.907) conferiram. Foi corrigida a interpretação da variação: 16,9% para o total, 16,3% para com CAT registrada e 12,7% para típicos com CAT registrada.
+
+Na mesma etapa, os códigos 200020700 e os agentes candidatos foram localizados e confirmados semanticamente nas tabelas oficiais do eSocial. A página do MTE foi confirmada como fonte de casos e relatórios narrativos na categoria de soterramento, desabamento e desmoronamento. Ainda não foi demonstrada a presença do código de situação geradora no CSV público piloto da CAT; essa permanece a principal pendência para uma contagem específica de colapsos.
+
+O detalhamento e as fontes estão em [`validacao-aeat-esocial-mte.md`](validacao-aeat-esocial-mte.md).

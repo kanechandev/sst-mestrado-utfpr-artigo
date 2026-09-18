@@ -20,7 +20,7 @@ Esta planilha é um instrumento de consolidação e exploração fornecido ao gr
 
 ## Resultado estatístico inicial
 
-Na aba `Resumo`, o recorte CNAE 41–43 apresenta 43.452 acidentes em 2022, 46.672 em 2023 e 50.789 em 2024. A variação calculada na planilha entre 2022 e 2024 é de aproximadamente 16,9%. Para registros com CAT, os valores são 37.905, 40.292 e 44.091, respectivamente, com variação aproximada de 12,7%.
+Na aba `Resumo`, o recorte CNAE 41–43 apresenta 43.452 acidentes em 2022, 46.672 em 2023 e 50.789 em 2024. A variação entre 2022 e 2024 é de aproximadamente 16,9%. Para registros com CAT, os valores são 37.905, 40.292 e 44.091. A conferência direta no AEAT mostrou que a variação correta desse indicador é 16,3%; a variação de 12,7% corresponde aos acidentes típicos com CAT registrada (31.858, 33.451 e 35.907) e estava rotulada incorretamente no resumo.
 
 Esses valores são **provisórios**: a planilha contém os resultados, mas não documenta dentro de cada célula o procedimento de extração. Antes de publicar, conferir a soma e a definição de “total”, “com CAT” e “típicos” diretamente no [AEAT 2024](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/arquivos/AEAT-2024), especialmente na tabela de quantidade por CNAE.
 
@@ -50,8 +50,8 @@ Os casos listados na aba `Casos_MTE` são úteis para elaborar a lógica de clas
 
 ## Pendências de validação
 
-1. Recalcular os totais 2022–2024 a partir da tabela oficial do AEAT.
+1. ~~Recalcular os totais 2022–2024 a partir da tabela oficial do AEAT.~~ **Concluído em 18/09/2026; totais conferidos.**
 2. Registrar, para cada total, tabela, linha, coluna e fórmula utilizada.
-3. Confirmar a versão das Tabelas 14/15 do eSocial usada na construção dos códigos.
+3. ~~Confirmar a versão das Tabelas 14/15 do eSocial usada na construção dos códigos.~~ **Concluído quanto à existência e descrição; ainda falta testar a presença nos microdados.**
 4. Verificar se `200020700` está disponível na base de microdados que será analisada; o CSV público piloto da CAT não possuía esse campo no cabeçalho.
 5. Fazer dupla revisão de uma amostra dos candidatos e medir falsos positivos, especialmente para andaimes, plataformas e escavações.
