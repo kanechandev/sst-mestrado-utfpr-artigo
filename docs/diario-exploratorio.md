@@ -117,3 +117,14 @@ O detalhamento e as fontes estão em [`validacao-aeat-esocial-mte.md`](validacao
 Em 18/09/2026 foi pesquisada a disponibilidade pública de microdados eSocial com a variável de situação geradora. A documentação confirma que o campo existe no módulo de CAT, mas não foi localizada uma descarga pública de registros individuais. O relatório técnico do MTE de 2016–2025 foi baixado e preservado em `data/referencias/mte/`; ele fornece resultados agregados de CAT/INSS/eSocial e contexto setorial, mas não permite contar o código `200020700`.
 
 A decisão registrada é trabalhar com estatística agregada, classificação exploratória e validação narrativa, sem declarar incidência nacional de colapsos até que uma base individual compatível seja obtida.
+
+## 11. Reenquadramento científico e proposta para a disciplina do Mestrado
+
+Em 07/10/2026, foi consolidada a estratégia para a elaboração do artigo científico da disciplina de Segurança do Trabalho (Mestrado UTFPR).
+
+Diante da constatação empírica de que os microdados abertos da CAT e do eSocial inviabilizam uma medição censitária isolada de desabamentos, a limitação foi convertida em contribuição acadêmica:
+1. O objeto foi estruturado como uma pesquisa mista (quali-quantitativa);
+2. A dimensão macro utilizará o AEAT (2022–2024) e microdados da CAT para traçar a epidemiologia de eventos graves e agentes candidatos (andaimes, escavações, estruturas);
+3. A dimensão micro utilizará relatórios técnicos do MTE/SIT na categoria de desabamentos/soterramentos para investigação causal detalhada (NR-18 e NR-1);
+4. Foi documentada a proposta de artigo em [`proposta-artigo-mestrado.md`](proposta-artigo-mestrado.md) contendo quatro opções temáticas para discussão com o grupo e orientador(a).
+
