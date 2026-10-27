@@ -28,6 +28,20 @@ O CSV público piloto da CAT não apresenta, no cabeçalho, um campo explícito 
 
 Consequentemente, o projeto ainda não deve declarar que ocorreram “X acidentes de colapso” no Brasil. Os números setoriais e os eventos classificados devem ser apresentados como análise exploratória até a validação da fonte, dos códigos e dos falsos positivos. A conferência dos totais do AEAT foi concluída em 18/09/2026; ela confirmou os valores da planilha e corrigiu a variação de “com CAT registrada” para 16,3%.
 
+## Regra obrigatória de proveniência
+
+Todo relatório, artigo, planilha ou base de dados utilizado na análise deve ser preservado dentro da pasta `data/` do projeto e acompanhado de sua proveniência. Para cada material, registrar:
+
+1. instituição ou publicação de origem;
+2. título e tipo do material;
+3. URL ou link oficial de acesso;
+4. data de consulta ou download;
+5. nome do arquivo local;
+6. hash SHA-256, quando o arquivo estiver preservado;
+7. finalidade de uso no artigo.
+
+Materiais apenas consultados on-line devem ser registrados mesmo quando não for possível fazer o download. Nenhum número, argumento ou classificação deve entrar no artigo sem fonte rastreável no repositório ou na lista de referências do projeto.
+
 ### Próximas validações
 
 1. Recalcular os totais de 2022–2024 diretamente nas tabelas oficiais do [AEAT](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/arquivos/AEAT-2024).
@@ -39,6 +53,8 @@ Consequentemente, o projeto ainda não deve declarar que ocorreram “X acidente
 O relatório desta validação está em [`docs/validacao-aeat-esocial-mte.md`](../docs/validacao-aeat-esocial-mte.md).
 
 O relatório do MTE preservado no projeto está em [`data/referencias/mte/acidentes-trabalho-brasil-2016-2025-mte.pdf`](../data/referencias/mte/acidentes-trabalho-brasil-2016-2025-mte.pdf).
+
+Os quatro relatórios individuais utilizados no corpus qualitativo estão em [`data/referencias/mte/`](referencias/mte/) e possuem fonte, link oficial, data de consulta e hash registrados em [`data/referencias/mte/README.md`](referencias/mte/README.md).
 
 Os detalhes metodológicos estão em [`docs/metodologia/base-estatistica-colapso.md`](../docs/metodologia/base-estatistica-colapso.md), [`docs/metodologia/classificacao-colapso.md`](../docs/metodologia/classificacao-colapso.md) e [`docs/cenario-brasil-2021-2025.md`](../docs/cenario-brasil-2021-2025.md).
 

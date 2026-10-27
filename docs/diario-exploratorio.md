@@ -128,3 +128,19 @@ Diante da constatação empírica de que os microdados abertos da CAT e do eSoci
 3. A dimensão micro utilizará relatórios técnicos do MTE/SIT na categoria de desabamentos/soterramentos para investigação causal detalhada (NR-18 e NR-1);
 4. Foi documentada a proposta de artigo em [`proposta-artigo-mestrado.md`](proposta-artigo-mestrado.md) contendo quatro opções temáticas para discussão com o grupo e orientador(a).
 
+## 12. Auditoria da divergência na CAT-piloto
+
+Em 27/10/2026, foi realizada nova contagem direta do arquivo preservado `data/raw/cat/CAT-2024-12-INSS.zip`. O CSV possui 9.731 registros de dados e 27 colunas. A contagem foi confirmada pela leitura do CSV e pela correspondência estrutural do JSON e do XML incluídos no mesmo ZIP.
+
+O número de 291.936 registros, registrado anteriormente em [`proxima-etapa-inspecao-cat.md`](proxima-etapa-inspecao-cat.md), não é reproduzível a partir do arquivo local. Como não foi localizado outro arquivo ou extração que sustente esse total, ele foi corrigido na documentação e não será utilizado no artigo.
+
+Com o critério principal de CNAE iniciado em 41, 42 ou 43, foram encontrados 563 registros, incluindo 6 indicações de óbito. A regra anterior que também buscava “Construção” na descrição da atividade elevava o total para 575 ao incluir 12 registros de construção de embarcações dos CNAEs 3011/3012. O universo analítico principal passa a ser, portanto, exclusivamente o recorte por código CNAE 41–43.
+
+Uma busca textual exploratória no agente causador encontrou 24 candidatos nos CNAEs 41–43. Esse número permanece sujeito à revisão manual e não representa uma contagem de acidentes por colapso.
+
+## 13. Delimitação preliminar do corpus MTE
+
+Em 27/10/2026, foi consultada a página oficial do MTE com os relatórios individuais de análise de acidentes. Foram identificados dois casos centrais para o estudo: Center Pav, com desmoronamento de vala e soterramento de três trabalhadores, e Cirlene, com ruptura de parede de moega em construção e soterramento fatal. Também foram selecionados Yeshua, sobre ruptura de telha e queda em reforma de cobertura, e Borges, sobre queda de andaime suspenso, como casos de contraste para controle de falsos positivos.
+
+O corpus preliminar e a matriz de fatores estão em [`metodologia/corpus-mte-selecionado.md`](metodologia/corpus-mte-selecionado.md). Os dois primeiros casos serão usados como evidência qualitativa central; os demais não serão agregados a eles como se tivessem o mesmo mecanismo físico.
+

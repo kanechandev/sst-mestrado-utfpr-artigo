@@ -34,7 +34,7 @@ O CSV apresenta:
 - 27 colunas;
 - separador `;`;
 - cabeçalho e valores em codificação legada, aparentemente Windows-1252/Latin-1;
-- 291.936 registros de pessoas/acidentes na competência de dezembro de 2024;
+- 9.731 registros de pessoas/acidentes na competência de dezembro de 2024;
 - nenhum campo narrativo evidente no cabeçalho inspecionado.
 
 ### Filtragem preliminar
@@ -43,8 +43,8 @@ Foi aplicada uma filtragem exploratória para CNAE iniciado em 41, 42 ou 43, ou 
 
 | Medida | Resultado preliminar |
 |---|---:|
-| Registros totais no arquivo | 291.936 |
-| Registros associados aos CNAEs 41–43 | 575 |
+| Registros totais no arquivo | 9.731 |
+| Registros associados aos CNAEs 41–43 | 563 |
 | Indicações de óbito nesses registros | 6 |
 | Registros de construção cujo agente continha termos como desabamento, colapso, escoramento, forma ou demolição | 12 |
 
@@ -56,7 +56,7 @@ No arquivo-piloto, o código aparece em formato resumido — por exemplo, `4120`
 
 ### Observação importante sobre a classificação
 
-Os 12 registros encontrados por palavras no campo de agente causador incluem “Andaime, Plataforma”, entre outros. Isso demonstra que uma busca textual ampla produz falsos positivos: a presença de andaime ou forma não prova que houve colapso. A classificação deverá combinar agente causador, natureza da lesão, tipo de acidente, CNAE e, quando possível, fonte narrativa externa.
+Uma busca textual no campo de agente causador encontrou 24 registros dentro dos CNAEs 41–43, principalmente com “Andaime, Plataforma”, “Piso de Andaime e Plataforma” e referências a escavação. Isso demonstra que uma busca textual ampla produz falsos positivos: a presença de andaime ou escavação não prova que houve colapso. A classificação deverá combinar agente causador, natureza da lesão, tipo de acidente, CNAE e, quando possível, fonte narrativa externa.
 
 ## Próximo passo técnico
 
